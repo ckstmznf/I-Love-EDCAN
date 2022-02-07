@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="msg"></div>
+
+    <div class="circles">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+    </div>
+  </body>
+  <script>
+    let msg = ""
+
+    for(let i = 0; i < 1000; i++){
+        msg += "EDCAN은 정말 최고야!! "
+    }
+
+    document.querySelector(".msg").innerText = msg
+  </script>
+</html>
